@@ -7,11 +7,11 @@
         <!--<class>Mattia.entities.Student</class>-->
         <!-- Serve specificare l'elenco delle entities con tanto di package -->
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gestioneeventi"/>
+            <property name="javakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gestioneeventi"/>
             <!-- Dopo l'ultimo slash inserisco il nome del database al quale voglio collegarmi (IL DB DEVE ESISTERE PERO") -->
-            <property name="javax.persistence.jdbc.user" value="postgres"/>
-            <property name="javax.persistence.jdbc.password" value="1234"/>
-            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javakarta.persistence.jdbc.user" value="postgres"/>
+            <property name="javakarta.persistence.jdbc.password" value="1234"/>
+            <property name="javakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name= "hibernate.hbm2ddl.auto" value="update"/>
             <!-- Quest'ultima impostazione serve per chiedere a Hibernate di crearci le tabelle se non esistono ancora
             oppure se esistono aggiornarle se necessario -->
