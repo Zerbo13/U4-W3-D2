@@ -7,7 +7,7 @@
         <!--<class>Mattia.entities.Student</class>-->
         <!-- Serve specificare l'elenco delle entities con tanto di package -->
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/u4-w3-d2"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gestioneeventi"/>
             <!-- Dopo l'ultimo slash inserisco il nome del database al quale voglio collegarmi (IL DB DEVE ESISTERE PERO") -->
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="1234"/>
