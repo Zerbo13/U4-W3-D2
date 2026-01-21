@@ -4,7 +4,7 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
     <persistence-unit name="u4-w3-d2pu">
         <!-- Il persistence unit ci serve per configurare la connessione ad uno specifico db -->
-        <!--<class>Mattia.entities.Student</class>-->
+        <class>Mattiazerbini.entities.Evento</class>
         <!-- Serve specificare l'elenco delle entities con tanto di package -->
         <properties>
             <property name="javakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gestioneeventi"/>
