@@ -28,13 +28,12 @@ public class EventoDAO {
 
     //GETBYID
 
-    public Evento findById(long idEvento) {
-        Evento found = entityManager.find(Evento.class, idEvento);
-        if (found == null) throw new EntityNotFoundException(idEvento);
-        return found;
-    }
+    //public Evento findById(long idEvento) {
+      //  Evento found = entityManager.find(Evento.class, idEvento);
+       // if (found == null) throw new EntityNotFoundException(idEvento);
+       // return found;
+   // }
 
-    public void getById(long idEvento){
-
-    }
+    //public void getById(long idEvento){
+    //}
 }

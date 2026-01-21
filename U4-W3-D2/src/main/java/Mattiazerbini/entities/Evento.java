@@ -2,8 +2,8 @@ package Mattiazerbini.entities;
 import jakarta.persistence.*;
 
     @Entity
+    @Table(name = "evento")
 
-    @Table(name = "events")
     public class Evento{
 
 
