@@ -1,7 +1,9 @@
 package Mattiazerbini.entities;
 import jakarta.persistence.*;
 
-    @Entity
+import java.time.LocalDate;
+
+@Entity
     @Table(name = "evento")
 
     public class Evento{
@@ -19,7 +21,7 @@ import jakarta.persistence.*;
         private String titolo;
 
         @Column(name = "dataEvento", nullable = false)
-        private int dataEvento;
+        private LocalDate dataEvento;
 
         @Column(name = "descrizione", nullable = false, length = 70)
         private String descrizione;
@@ -33,7 +35,7 @@ import jakarta.persistence.*;
         public Evento(){
         }
 
-        public Evento(String titolo, int dataEvento, String descrizione, String tipoEvento, int numeroMassimoPartecipanti){
+        public Evento(String titolo, LocalDate dataEvento, String descrizione, String tipoEvento, int numeroMassimoPartecipanti){
             this.titolo = titolo;
             this.dataEvento = dataEvento;
             this.descrizione = descrizione;
@@ -53,11 +55,11 @@ import jakarta.persistence.*;
             this.titolo = titolo;
         }
 
-        public int getDataEvento() {
+        public LocalDate getDataEvento() {
             return dataEvento;
         }
 
-        public void setDataEvento(int dataEvento) {
+        public void setDataEvento(LocalDate dataEvento) {
             this.dataEvento = dataEvento;
         }
 
